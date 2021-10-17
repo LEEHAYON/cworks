@@ -22,13 +22,18 @@ int main() {
 			balance += money;
 		}
 		else if (selNO == 2) {
-			printf("출금액> ");
-			scanf_s("%d", &money);
-			if(money<=balance){
-				balance -= money;
-			}
-			else {
-				printf("한도 초과입니다.\n");
+			//출금액이 잔액을 초과한 경우에 "잔액을 초과했습니다. 다시 입력해주세요."
+			while (sw){
+				printf("출금액> ");
+				scanf_s("%d", &money);
+				if(money > balance){
+					printf("잔액을 초과했습니다. 다시 입력해주세요.\n");
+				}
+				else {
+					balance -= money;
+					printf("정상 처리되었습니다.\n");
+					break;
+				}
 			}
 		}
 		else if (selNO == 3) {
