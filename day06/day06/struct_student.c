@@ -5,7 +5,7 @@
 
 //struct 구조체 자료형 정의
 struct Student {
-	int number; //학생의 번호(멤버_성질 변수 - 초기화 하지 않음_직접 숫자를 넣지 않음, 선언만 함)
+	int number; //학생의 번호(멤버[성질] 변수 - 초기화 하지 않음_직접 숫자를 넣지 않음, 선언만 함)
 	char name[20]; //이름
 	double weight; //몸무게
 };
@@ -28,9 +28,15 @@ int main() {
 	strcpy(s2.name, "이채연");
 	s2.weight = 59.8;
 
+	struct Student s3 = { 103, "박효신", 60.5 };
+
 	printf("학번 : %d\n ", s2.number);
 	printf("이름 : %s\n", s2.name);
 	printf("몸무게 : %3.1lf\n", s2.weight);
+
+	printf("학번 : %d\n ", s3.number);
+	printf("이름 : %s\n", s3.name);
+	printf("몸무게 : %3.1lf\n", s3.weight);
 
 	return 0;
 }

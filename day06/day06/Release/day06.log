@@ -1,0 +1,23 @@
+﻿  swapBy.c
+C:\divc\day06\day06\swapBy.c(14,14): warning C4047: '함수': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\divc\day06\day06\swapBy.c(14,12): warning C4024: 'swapByRef': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\divc\day06\day06\swapBy.c(14,18): warning C4047: '함수': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\divc\day06\day06\swapBy.c(14,16): warning C4024: 'swapByRef': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+C:\divc\day06\day06\swapBy.c(28,21): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+C:\divc\day06\day06\swapBy.c(28,29): warning C4028: 정식 매개 변수 2이(가) 선언과 다릅니다.
+findmax_pointer.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+flinght_ex.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+malloc_ex.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+malloc_ex2.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+malloc_ex3.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+malloc_getname.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+memory_field.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+person_main.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+score_main.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+struct_eyesight.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+struct_lef.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+struct_student2.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+struct_three_d.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+swapBy.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+typedef_three_d.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+C:\divc\day06\Release\day06.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
