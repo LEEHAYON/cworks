@@ -54,6 +54,15 @@
     <ClCompile Include="buffer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="score_read.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="file_scorelist.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="scorelist_read.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="message.h">
